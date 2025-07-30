@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Crypt Capital - AI-Powered Crypto Trading Platform</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h2 class="m-0 text-primary"><img class="img-fluid me-2" src="img/icon-1.png" alt="" style="width: 45px;">Crypt Capital</h2>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+
+
+                
+
+                 <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Why Crypt Capital</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="feature.html" class="dropdown-item">Automatic Trading</a>
+
+                        <a href="#" class="dropdown-item">Social Trading </a>
+                        <a href="#" class="dropdown-item">Copy Bot </a>
+                        <a href="#" class="dropdown-item">Trailing Orders </a>
+
+                        <a href="#" class="dropdown-item">DCA </a>
+                    
+                        <a href="#" class="dropdown-item">Paper Trading </a>
+
+                        <a href="#" class="dropdown-item">Exchanges </a>
+
+
+                        <a href="#" class="dropdown-item">All Features </a>
+
+                    
+                        
+                    </div>
+                </div>
+
+
+                
+                 <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Solutions</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="#" class="dropdown-item">Asset Managers</a>
+
+                        <a href="token.html" class="dropdown-item">Convert Funds</a>
+                        <a href="#" class="dropdown-item">Advanced traders</a>
+                        <a href="#" class="dropdown-item">Trailing Orders </a>
+                        <a href="#" class="dropdown-item">Fiat <br> </a>
+                        <a href="#" class="dropdown-item">Trading Terminal</a>
+                        
+                    </div>
+                </div>
+
+                <a href="#" class="nav-item nav-link">Pricing</a>
+
+
+
+
+                 <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Learn</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="#" class="dropdown-item">Crypt Capital AI (Bot)</a>
+
+                        <a href="#" class="dropdown-item">About Us</a>
+                        <a href="#" class="dropdown-item">Get Started</a>
+                        <a href="#" class="dropdown-item">Tutorials </a>
+                        <a href="#" class="dropdown-item">Helpdesk </a>
+                        <a href="#" class="dropdown-item">Documentation</a>
+                        <a href="#" class="dropdown-item">Support</a>
+
+                        
+                    </div>
+                </div>
+
+
+                
+                
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+
+                <div class="nav-item nav-link">
+                <a href="login/index.html"> <button style="color: ghostwhite; border-radius: 15px;background-color:  rgb(32, 32, 139);
+                font-weight: bolder; border-color:  rgb(32, 32, 139); "> Dashboard</button></a>
+            </div>
+                
+            </div>
+
+
+            
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid hero-header bg-light py-5 mb-5" style="background-image: url('img/ban.jpg'); background-repeat: no-repeat;
+  display: flex; width: 100%; background-size: cover;">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 mb-3 animated slideInDown" style="color: white;">Make Better Life With Trusted <br> <span style="color: rgb(32, 32, 139); text-shadow:
+    -1px -1px 0 white,
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white;">Crypt Capital AI</span> </h1>
+                    <p class="animated slideInDown" style=" color: white;">Crypt Capital is a subscription-based, AI-powered crypto trading platform designed to help users grow their portfolios while managing risk intelligently.</p>
+                    <a href="" class="btn btn-primary py-3 px-4 animated slideInDown" style="color: ghostwhite; border-radius: 15px;background-color: rgb(32, 32, 139);
+                font-weight: bolder; border-color:  rgb(32, 32, 139); ">Explore More</a>
+
+                <a href="login/index.html" class="btn btn-primary py-3 px-4 animated slideInDown" style="color: ghostwhite; border-radius: 15px;background-color: rgb(32, 32, 139);
+                font-weight: bolder; border-color:  rgb(32, 32, 139); ">Dashboard</a>
+                </div>
+                <div class="col-lg-6 animated fadeIn">
+                    <img width="200%" class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/hero-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="img/about.png" alt="">
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <h1 class="display-6">About Us</h1>
+                        <p class="text-primary fs-5 mb-4"><span style=" font-weight: bolder;">The Most Trusted Cryptocurrency Platform <br>Smarter Crypto Trading Starts Here.</span></p>
+                       
+                        <p>Crypt Capital is your AI-powered Web3 trading partner. With smart automation, real-time analytics, and built-in risk protection — we help you trade faster, grow smarter, and stay in control 24/7. Autonomous. Transparent. Scalable.
+
+This is the future of trading. This is Crypt Capital.</p>
+                       
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                            <span>•	Automated trading based on AI strategies</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                            <span>•	Tiered risk management systems</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-4">
+                            <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                            <span>•	Real-time analytics</span>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-4">
+                            <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                            <span>•	Wallet integrations</span>
+                        </div>
+
+
+                        <a class="btn btn-primary py-3 px-4" href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Facts Start -->
+     
+<!-- ========== Cryptohopper Section ========== -->
+<section class="cryptohopper-section" >
+  <!-- Headline -->
+  <div class="hero">
+    <h1>Automate your trading <br> <span style="color: rgb(32, 32, 139);;">Take your emotion out of the equation</span></h1>
+    
+  </div>
+
+  <!-- Features -->
+  <div class="features">
+    <div class="feature">
+      <img src="img/a1.png" alt="Trust Icon" />
+      <h3>Manage your portfolio</h3>
+      <p>Connect all your exchange accounts and manage them with our trading terminal. Free of charge!</p>
+    </div>
+    <div class="feature">
+      <img src="img/a2.png" alt="Security Icon" />
+      <h3>Trailing features</h3>
+      <p>Follow price movements and buy/sell automatically when the trend changes direction.</p>
+    </div>
+    <div class="feature">
+      <img src="img/a3.png" alt="Privacy Icon" />
+      <h3>Trading Bots</h3>
+      <p>Copy other traders easily or trade automatically with our unique trading A.I.</p>
+    </div>
+  </div>
+
+  <section style="width: 100%; height: 60vh; overflow: hidden;">
+  <img src="img/dashboard.jpg" 
+       alt="Responsive Section Image"
+       style="width: 100%; height: 100%; object-fit: cover;">
+</section>
+
+
+  <!-- Stats -->
+  <!-- <div class="stats-box">
+    <h2>1,053,796</h2>
+    <p>other cryptocurrency<br>traders using<br>Crypt Capital.</p>
+  </div> -->
+</section>
+
+<!-- ========== Styles ========== -->
+<style>
+.cryptohopper-section {
+  background: #f8f9ff;
+  text-align: center;
+  padding: 60px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Optional subtle background pattern */
+.cryptohopper-section::before {
+  content: "";
+  /* background: url('img/image4.webp') center/cover no-repeat; */
+  opacity: 0.05;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 0;
+}
+
+.cryptohopper-section > * {
+  position: relative;
+  z-index: 1;
+}
+
+.cryptohopper-section h1 {
+  font-size: 2rem;
+  color: #1c1c3b;
+  margin-bottom: 40px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.feature {
+  flex: 1 1 250px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.feature img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #1c1c3b;
+}
+
+.feature p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.stats-box {
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  padding: 50px 50px;
+  width: 260px;
+  top: -300px;
+}
+
+.stats-box h2 {
+  font-size: 2.2rem;
+  color: #06b6d4;
+  margin-bottom: 10px;
+}
+
+.stats-box p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .cryptohopper-section h1 {
+    font-size: 1.8rem;
+  }
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stats-box {
+    width: 220px;
+    padding: 35px 20px;
+  }
+}
+</style>
+
+
+
+    <!-- Facts End -->
+
+
+    <!-- Features Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6">Why Us!</h1>
+                <p class="text-primary fs-5 mb-5"><span style=" font-weight: bolder;">The Best In The crypto Industry</span></p>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-7.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">Easy To Start</h5>
+                            <span>Getting started with Crypt Capital is simple and seamless. Connect your wallet, set your preferences, and let our AI-powered trading engine do the heavy lifting.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-6.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">Safe & Secure</h5>
+                            <span>We prioritize your security with bank-grade encryption, multi-layer authentication, and decentralized storage — ensuring your assets are always protected.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-5.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">Affordable Plans</h5>
+                            <span>Our flexible subscription plans are designed to fit every trader’s budget, giving you access to premium AI trading tools without breaking the bank.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-4.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">Secure Storage</h5>
+                            <span>We integrate with trusted Web3 wallets and exchanges, providing a secure and transparent environment for managing your digital assets.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-3.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">Protected By Insurance</h5>
+                            <span>Your funds are backed by insurance safeguards, adding an extra layer of protection and peace of mind for all users.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-8.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">24/7 Support</h5>
+                            <span>Our dedicated support team is available around the clock to assist with any questions or issues, ensuring a smooth trading experience anytime, anywhere.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+ <!-- ========== Cryptohopper Section ========== -->
+<section class="cryptohopper-section" >
+  <!-- Headline -->
+  <div class="hero">
+    <h1>Experience the leading<br>Crypt Capital trading bot</h1>
+  </div>
+
+  <!-- Features -->
+  <div class="features">
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/60/handshake.png" alt="Trust Icon" />
+      <h3>Trust</h3>
+      <p>Crypt Capital works closely together with exchanges and regulators.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/60/security-checked.png" alt="Security Icon" />
+      <h3>Security</h3>
+      <p>Your account is protected by industry-leading security protocols.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/60/privacy.png" alt="Privacy Icon" />
+      <h3>Privacy</h3>
+      <p>We will never share your data without your permission.</p>
+    </div>
+  </div>
+
+  <section style="width: 100%; height: 60vh; overflow: hidden;">
+  <img src="img/image4.webp" 
+       alt="Responsive Section Image"
+       style="width: 100%; height: 100%; object-fit: cover;">
+</section>
+
+
+  <!-- Stats -->
+  <!-- <div class="stats-box">
+    <h2>1,053,796</h2>
+    <p>other cryptocurrency<br>traders using<br>Crypt Capital.</p>
+  </div> -->
+</section>
+
+<!-- ========== Styles ========== -->
+<style>
+.cryptohopper-section {
+  background: #f8f9ff;
+  text-align: center;
+  padding: 60px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Optional subtle background pattern */
+.cryptohopper-section::before {
+  content: "";
+  /* background: url('img/image4.webp') center/cover no-repeat; */
+  opacity: 0.05;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 0;
+}
+
+.cryptohopper-section > * {
+  position: relative;
+  z-index: 1;
+}
+
+.cryptohopper-section h1 {
+  font-size: 2rem;
+  color: #1c1c3b;
+  margin-bottom: 40px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.feature {
+  flex: 1 1 250px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.feature img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #1c1c3b;
+}
+
+.feature p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.stats-box {
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  padding: 50px 50px;
+  width: 260px;
+  top: -300px;
+}
+
+.stats-box h2 {
+  font-size: 2.2rem;
+  color: #06b6d4;
+  margin-bottom: 10px;
+}
+
+.stats-box p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .cryptohopper-section h1 {
+    font-size: 1.8rem;
+  }
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stats-box {
+    width: 220px;
+    padding: 35px 20px;
+  }
+}
+</style>
+
+
+
+    <!-- Service Start -->
+    <div class="container-xxl bg-light py-5 my-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6">Services</h1>
+                <p class="text-primary fs-5 mb-5" ><span style=" font-weight: bolder;">Buy, Sell, and Exchange Cryptocurrency with Ease</span></p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-7.png" alt="">
+                        <h5 class="mb-3">Currency Wallet</h5>
+                        <p>Securely store, manage, and track your digital assets with our encrypted Web3 wallet. Enjoy seamless access, multi-layer security, and real-time portfolio insights — all in one place.</p>
+                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
+                        <h5 class="mb-3">Currency Transaction</h5>
+                        <p>Send and receive cryptocurrency worldwide in seconds. Our AI-optimized transaction engine ensures fast, low-fee, and reliable transfers, keeping your assets safe from start to finish.</p>
+                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-9.png" alt="">
+                        <h5 class="mb-3">Wallet integrations</h5>
+                        <p>Grow your portfolio with our AI-powered tools. Benefit from intelligent strategies, automated trading, and advanced analytics designed to maximize your returns.</p>
+                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-5.png" alt="">
+                        <h5 class="mb-3">Currency Exchange</h5>
+                        <p>Trade your favorite cryptocurrencies effortlessly. Our high-speed exchange engine provides competitive rates, deep liquidity, and an intuitive interface for both beginners and pros.</p>
+                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
+                        <h5 class="mb-3">AI strategies</h5>
+                        <p>Trade with confidence using our secure AI strategies. Funds are safely held until all parties meet their obligations, reducing risks in peer-to-peer transactions.</p>
+                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-8.png" alt="">
+                        <h5 class="mb-3">Token Sale</h5>
+                        <p>Participate in token sales with ease and security. Our platform offers streamlined KYC, multi-wallet support, and trusted escrow integration for hassle-free investments.</p>
+                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+   <section style="
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #0c1b3c; /* background fill for empty spaces */
+">
+    <img src="img/dash.png" alt="Full Screen Background" style="
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        transform: translate(-50%, -50%);
+    ">
+</section>
+
+
+
+
+<!-- Roadmap Start -->
+    <section id="roadmap" style="padding: 60px 20px; background-color: #0c1b3c; color: #fff; font-family: Arial, sans-serif;">
+  <div style="max-width: 1300px; margin: 0 auto; text-align: center;">
+    <h2 style="font-size: 36px; margin-bottom: 10px; color: #00c3ff;">Roadmap</h2>
+    <p style="font-size: 18px; margin-bottom: 40px; color: #cfd6f0;">We Translate Your Dream Into Reality</p>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; text-align: left;">
+      
+      <div style="background: #1a2e5c; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        <i class="fas fa-lightbulb" style="font-size: 32px; color: #00c3ff; margin-bottom: 10px;"></i>
+        <h3 style="font-size: 20px; margin-bottom: 10px; color: #00c3ff;">Phase 1 – Idea & Vision</h3>
+        <p style="font-size: 14px; color: #cfd6f0;">
+          Conceptualized a secure, AI-driven Web3 trading platform with a mission to simplify crypto trading.
+        </p>
+      </div>
+      
+      <div style="background: #1a2e5c; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        <i class="fas fa-cogs" style="font-size: 32px; color: #00c3ff; margin-bottom: 10px;"></i>
+        <h3 style="font-size: 20px; margin-bottom: 10px; color: #00c3ff;">Phase 2 – Core Development</h3>
+        <p style="font-size: 14px; color: #cfd6f0;">
+          Built core architecture, integrated wallet connections, and set up robust security protocols.
+        </p>
+      </div>
+      
+      <div style="background: #1a2e5c; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        <i class="fas fa-rocket" style="font-size: 32px; color: #00c3ff; margin-bottom: 10px;"></i>
+        <h3 style="font-size: 20px; margin-bottom: 10px; color: #00c3ff;">Phase 3 – MVP Launch</h3>
+        <p style="font-size: 14px; color: #cfd6f0;">
+          Released a minimal viable product to early users and gathered feedback for refinement.
+        </p>
+      </div>
+      
+      <div style="background: #1a2e5c; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        <i class="fas fa-chart-line" style="font-size: 32px; color: #00c3ff; margin-bottom: 10px;"></i>
+        <h3 style="font-size: 20px; margin-bottom: 10px; color: #00c3ff;">Phase 4 – Growth & Scaling</h3>
+        <p style="font-size: 14px; color: #cfd6f0;">
+          Expanded features, improved AI strategies, and scaled infrastructure for growing demand.
+        </p>
+      </div>
+      
+      <div style="background: #1a2e5c; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        <i class="fas fa-robot" style="font-size: 32px; color: #00c3ff; margin-bottom: 10px;"></i>
+        <h3 style="font-size: 20px; margin-bottom: 10px; color: #00c3ff;">Phase 5 – Advanced Automation</h3>
+        <p style="font-size: 14px; color: #cfd6f0;">
+          Upgraded machine learning models, adaptive trading strategies, and real-time analytics tools.
+        </p>
+      </div>
+      
+      <div style="background: #1a2e5c; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        <i class="fas fa-users" style="font-size: 32px; color: #00c3ff; margin-bottom: 10px;"></i>
+        <h3 style="font-size: 20px; margin-bottom: 10px; color: #00c3ff;">Phase 6 – Ecosystem & Community</h3>
+        <p style="font-size: 14px; color: #cfd6f0;">
+          Built a vibrant ecosystem with token rewards, governance, and community-led improvements.
+        </p>
+      </div>
+      
+      <div style="background: #1a2e5c; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        <i class="fas fa-globe" style="font-size: 32px; color: #00c3ff; margin-bottom: 10px;"></i>
+        <h3 style="font-size: 20px; margin-bottom: 10px; color: #00c3ff;">Phase 7 – Global Expansion</h3>
+        <p style="font-size: 14px; color: #cfd6f0;">
+          Expanded to new markets, integrated multi-currency support, and strengthened partnerships.
+        </p>
+      </div>
+      
+      <div style="background: #1a2e5c; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        <i class="fas fa-infinity" style="font-size: 32px; color: #00c3ff; margin-bottom: 10px;"></i>
+        <h3 style="font-size: 20px; margin-bottom: 10px; color: #00c3ff;">Phase 8 – The Future of Trading</h3>
+        <p style="font-size: 14px; color: #cfd6f0;">
+          Continuing innovation with next-gen AI, decentralized governance, and unmatched scalability.
+        </p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- Font Awesome Icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- Roadmap End -->
+
+
+    <!-- Token Sale Start -->
+    <div class="container-xxl bg-light py-5 my-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6">Token Sale</h1>
+                <p class="text-primary fs-5 mb-5"><span style="font-weight: bolder;">Token Sale Countdown</span></p>
+            </div>
+            <div class="row g-3">
+                <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="bg-white text-center p-3">
+                        <h1 class="mb-0">0</h1>
+                        <span class="text-primary fs-5">Days</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="bg-white text-center p-3">
+                        <h1 class="mb-0">0</h1>
+                        <span class="text-primary fs-5">Hours</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="bg-white text-center p-3">
+                        <h1 class="mb-0">0</h1>
+                        <span class="text-primary fs-5">Minutes</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="bg-white text-center p-3">
+                        <h1 class="mb-0">0</h1>
+                        <span class="text-primary fs-5">Seconds</span>
+                    </div>
+                </div>
+                <div class="col-12 text-center py-4">
+                    <a class="btn btn-primary py-3 px-4" href="" style="border-radius: 35px;"><span >Buy Token</span></a>
+                </div>
+                <div class="col-12 text-center">
+                    <img class="img-fluid m-1" src="img/payment-1.png" alt="" style="width: 50px;">
+                    <img class="img-fluid m-1" src="img/payment-2.png" alt="" style="width: 50px;">
+                    <img class="img-fluid m-1" src="img/payment-3.png" alt="" style="width: 50px;">
+                    <img class="img-fluid m-1" src="img/payment-4.png" alt="" style="width: 50px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Token Sale Start -->               
+
+
+   
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <h1 class="text-primary mb-4"><img class="img-fluid me-2" src="img/icon-1.png" alt="" style="width: 45px;">Crypt Capital</h1>
+                    <h5 class="mb-4">Follow Us</h5>
+                    <div class="d-flex">
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="mb-4">Newsletter</h5>
+                    <p>Get market insights, strategies, and updates straight to your inbox.</p>
+                    <div class="position-relative">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+                
+                
+               
+                
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Crypt Capital</a>, All Right Reserved.
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
